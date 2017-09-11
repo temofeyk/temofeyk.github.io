@@ -1,0 +1,1 @@
+webpackJsonp([2],{7:function(n,o,e){"use strict";e(0),e(!function(){var n=new Error('Cannot find module "./index.scss"');throw n.code="MODULE_NOT_FOUND",n}());var t=(0,function(n){return n&&n.__esModule?n:{default:n}}(e(1)).default)(["Главная","Обо мне","Блог"],"menu");document.body.appendChild(t),console.log("in about.js")}},[7]);
