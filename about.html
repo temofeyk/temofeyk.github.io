@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>index page</title>
-  <link href="./css/about.6ff0ddc1aac01f2044d9.css" rel="stylesheet"></head>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjo3uCuhAPyeFHZbdjgjRtw3V3guPjAQk&amp;callback=initMap"></script>
+  <link href="./css/about.018db95e3fade175649f.css" rel="stylesheet"></head>
   <body>
     <div class="wrapper">
       <div class="about">
-        <header class="section header">
+        <header class="section header adbout__header">
                   <ul class="socials header__socials">
                     <li class="socials__iconWrapper">
                       <svg class="socials__icon socials__icon_vk">
@@ -26,8 +27,8 @@
                       </svg>
                     </li>
                   </ul>
-                  <icon class="menuButton header__menuBtn">
-                    <svg class="menuButton__icon">
+                  <icon class="icon header__menuBtn">
+                    <svg class="icon__svgImage">
                       <use xlink:href="images/svgIcons.svg#hamburger"></use>
                     </svg>
                   </icon>
@@ -36,14 +37,42 @@
                     <div class="developer__name">Artemy Kudriavov</div>
                     <div class="developer__siteInfo">Die persönliche Website des Entwicklers</div>
                   </div>
-          <svg class="header__bg header__bg_left">
-            <use xlink:href="images/geometry.svg#about_bg_left"></use>
-          </svg>
-          <svg class="header__bg header__bg_right">
-            <use xlink:href="images/geometry.svg#about_bg_right"></use>
-          </svg>
+          <div class="header__bg header__bg_left">
+            <svg width="100%" height="100%">
+              <use xlink:href="images/svgIcons.svg#about_bg_left"></use>
+            </svg>
+          </div>
+          <div class="header__bg header__bg_right">
+            <svg width="100%" height="100%">
+              <use xlink:href="images/svgIcons.svg#about_bg_right"></use>
+            </svg>
+          </div>
         </header>
+<section class="section about__info main">
+  <div class="main__left info">
+    <h1 class="info__header">Обо мне</h1>
+    <hr class="info__line">
+    <div class="info__photoWrapper"><img class="info__photo" src="images/big-ava.jpg"></div>
+    <h2 class="info__whoAmHeader">Кто я</h2>
+    <hr class="info__line">
+    <div class="info__infoText">
+      <p class="info__infoTextContent">Родился на улице Герцена. В гастрономе № 22. Известный экономист. По призванию своему библиотекарь. В народе — колхозник. В магазине — продавец. В экономике, так сказать, необходим.</p>
+      <p class="info__infoTextContent">Крепкий учебник будет весомей, чем гастроном на улице Герцена. А на улице Герцена будет расщепленный учебник. Тогда учебник будет проходить через улицу Герцена, через гастроном № 22, и замещаться там по формуле экономического единства.</p>
+    </div>
+  </div>
+  <div class="main__right skills">
+    <h3 class="skills__header">Я бесполезен</h3>
+    <hr class="info__line">
+    <div class="skills__text">
+      <p class="skills__textContent">Я прохожу курсы по веб-разработке и мобильной разработке. Чтобы совместить приятное с полезным, я предлагаю вам заказать у меня сайт или лэндинг почти за бесплатно. Ваш сайт мне нужен будет для портфолио, от чего ваш сайт только выиграет, ведь мне нужно крутое портфолио :) В этом мне поможет набор бесполезных знаний</p>
+    </div>
+    <div class="skills__container" id="skills"></div>
+  </div>
+</section>
+        <section class="section about__map">
+          <div class="googleMap" id="gmap"></div>
+        </section>
       </div>
     </div>
-  <script type="text/javascript" src="./js/common.49e03ffac11a6fc55e29.js"></script><script type="text/javascript" src="./js/about.6ff0ddc1aac01f2044d9.js"></script></body>
+  <script type="text/javascript" src="./js/common.82d0f2d43de77a0dae0f.js"></script><script type="text/javascript" src="./js/about.018db95e3fade175649f.js"></script></body>
 </html>
