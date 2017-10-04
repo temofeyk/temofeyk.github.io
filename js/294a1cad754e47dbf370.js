@@ -1,1 +1,0 @@
-webpackJsonp([0],[,,function(n,e,o){"use strict";o(0),o(3);var u=(0,function(n){return n&&n.__esModule?n:{default:n}}(o(1)).default)(["Главная","Обо мне","Блог"],"menu");document.body.appendChild(u),console.log("in index.js")},function(n,e){}],[2]);
